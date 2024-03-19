@@ -1,4 +1,4 @@
-//package RandomQuestions;
+package RandomQuestions;
 import java.util.Scanner;
 
 public class LineTrip_1901A {
