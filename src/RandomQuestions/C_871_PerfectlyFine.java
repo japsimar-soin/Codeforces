@@ -1,7 +1,7 @@
 package RandomQuestions;
 import java.util.*;
 
-public class PerfectlyFine_871C {
+public class C_871_PerfectlyFine {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

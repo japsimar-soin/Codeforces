@@ -2,7 +2,7 @@ package RandomQuestions;
 
 import java.util.Scanner;
 
-public class RestoringDurationOfTasks_797C {
+public class C_797_RestoringDurationOfTasks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

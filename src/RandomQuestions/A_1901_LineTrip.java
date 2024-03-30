@@ -1,7 +1,7 @@
 package RandomQuestions;
 import java.util.Scanner;
 
-public class LineTrip_1901A {
+public class A_1901_LineTrip {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

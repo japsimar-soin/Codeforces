@@ -1,7 +1,7 @@
 package RandomQuestions;
 import java.util.*;
 
-public class InfinityTable_739C {
+public class C_739_InfinityTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
