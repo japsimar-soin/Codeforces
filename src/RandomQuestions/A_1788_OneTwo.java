@@ -1,4 +1,4 @@
-//package RandomQuestions;
+package RandomQuestions;
 import java.util.*;
 
 public class A_1788_OneTwo {
@@ -32,13 +32,11 @@ public class A_1788_OneTwo {
         if(count%2 == 1){
             return -1;
         }
-        int[] freq = new int[n];
         int two = 0;
         for(int i=0; i<n; i++){
             if(arr[i] == 2) {
                 two++;
             }
-            freq[i] = two;
             if(count-two == two){
                 return i+1;
             }
