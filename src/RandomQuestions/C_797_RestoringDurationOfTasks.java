@@ -1,5 +1,4 @@
 package RandomQuestions;
-
 import java.util.Scanner;
 
 public class C_797_RestoringDurationOfTasks {

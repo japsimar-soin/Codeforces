@@ -1,7 +1,8 @@
-package RandomQuestions;
+package Incomplete;
 import java.util.*;
 
 public class A_1814_Coins {
+    //------------------------------INCOMPLETE------------------------------INCOMPLETE------------------------------INCOMPLETE----------
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

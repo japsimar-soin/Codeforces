@@ -1,4 +1,4 @@
-//package RandomQuestions;
+package RandomQuestions;
 import java.util.*;
 
 public class C_1791_PrependAndAppend {

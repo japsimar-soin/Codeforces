@@ -1,4 +1,4 @@
-package RandomQuestions;
+package Incomplete;
 import java.util.*;
 
 public class A_1761_TwoPermutations {
