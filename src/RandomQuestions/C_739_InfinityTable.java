@@ -28,7 +28,6 @@ public class C_739_InfinityTable {
             root = root+1;
             square = root*root;
         }
-//        System.out.println(square);
         
         if(k > square-root){
             ans[0] = root;
