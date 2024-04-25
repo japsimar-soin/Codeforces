@@ -21,7 +21,7 @@ public class A_1777_EverybodyLikesGoodArrays {
         }
     }
     
-    public static int solve(int n, int[] arr){
+    private static int solve(int n, int[] arr){
         int ans = 0;
         int prev = arr[0]%2;
         int i = 0;

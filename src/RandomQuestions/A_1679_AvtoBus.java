@@ -17,7 +17,7 @@ public class A_1679_AvtoBus {
         }
     }
     
-    public static long[] solve(long n){
+    private static long[] solve(long n){
         long max = 0;
         long min = 0;
         if(n%2 == 1 || n < 4){

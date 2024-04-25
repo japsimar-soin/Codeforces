@@ -23,7 +23,6 @@ public class C_871_PerfectlyFine {
             System.out.println(arr[i]);
         }
     }
-    
     private static int solve(int n, int[] minutes, String[] skills) {
         HashMap<Integer, Integer> hm = new HashMap<>();
         int ans = -1;

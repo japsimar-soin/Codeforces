@@ -24,7 +24,7 @@ public class B_1447_NumbersBox {
         }
     }
     
-    public static int solve(int[][] grid, int m, int n){
+    private static int solve(int[][] grid, int m, int n){
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         int neg = 0;
         for(int i=0; i<n; i++){

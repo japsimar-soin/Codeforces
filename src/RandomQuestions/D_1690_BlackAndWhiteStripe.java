@@ -1,6 +1,5 @@
 package RandomQuestions;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class D_1690_BlackAndWhiteStripe {
     public static void main(String[] args) {
@@ -18,7 +17,6 @@ public class D_1690_BlackAndWhiteStripe {
             System.out.println(ans[i]);
         }
     }
-    
     private static int solve(int n, int k, String s) {
         int min = n;
         int l = 0, r = 0;

@@ -19,7 +19,7 @@ public class C_1791_PrependAndAppend {
         }
     }
     
-    public static int solve(int n, String s){
+    private static int solve(int n, String s){
         int i = 0;
         int j = n-1;
         while(i<=j){

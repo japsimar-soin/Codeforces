@@ -1,22 +1,22 @@
 import java.util.*;
 
-public class A_1485_AddAndDivide {
+public class B_1474_DifferentDivisors {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        int[] ans = new int[t];
+        long[] ans = new long[t];
         for (int i = 0; i < t; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-//            int res = solve(a, b);
-//            ans[i] = res;
+            int d = sc.nextInt();
+            ans[i] = solve(d);
         }
         for (int i = 0; i < t; i++) {
             System.out.println(ans[i]);
         }
     }
     
-//    public static int solve(int a, int b){
-//
-//    }
+    public static long solve(int d){
+        long ans = 1;
+        
+        return ans;
+    }
 }

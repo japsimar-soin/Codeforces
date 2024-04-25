@@ -18,7 +18,7 @@ public class A_1766_ExtremelyRound {
         }
     }
     
-    public static int solve(int n){
+    private static int solve(int n){
         if(n > 900000){
             return 9*6;
         }

@@ -30,7 +30,7 @@ public class A_1783_MakeItBeautiful {
         }
     }
     
-    public static int[] solve(int n, int[] arr){
+    private static int[] solve(int n, int[] arr){
         Arrays.sort(arr);
         int[] pref = new int[n];
         pref[0] = arr[0];

@@ -1,6 +1,5 @@
 package RandomQuestions;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class C_1374_MoveBrackets {
     public static void main(String[] args) {
@@ -19,8 +18,7 @@ public class C_1374_MoveBrackets {
             System.out.println(arr[i]);
         }
     }
-    
-    public static int solve(int n, String s) {
+    private static int solve(int n, String s) {
         int i = 0;
         int o = 0;
         int c = 0;

@@ -21,7 +21,7 @@ public class A_1788_OneTwo {
         }
     }
     
-    public static int solve(int n, int[] arr){
+    private static int solve(int n, int[] arr){
         int ans = -1;
         int count = 0;
         for(int i=0; i<n; i++){

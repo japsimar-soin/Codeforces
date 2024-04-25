@@ -16,8 +16,7 @@ public class C_739_InfinityTable {
             System.out.println(arr[i][0] + " " + arr[i][1]);
         }
     }
-    
-    public static int[] solve(int k){
+    private static int[] solve(int k){
         int[] ans = new int[2];
         int root = (int)Math.sqrt(k);
         int square = root*root;

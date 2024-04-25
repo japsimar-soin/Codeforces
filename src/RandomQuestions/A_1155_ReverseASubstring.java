@@ -18,7 +18,7 @@ public class A_1155_ReverseASubstring {
         }
     }
 
-    public static int[] solve(int n, String s){
+    private static int[] solve(int n, String s){
         int i = 1;
         while(i < n){
             char c = s.charAt(i);

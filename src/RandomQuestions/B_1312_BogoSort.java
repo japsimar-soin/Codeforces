@@ -24,7 +24,7 @@ public class B_1312_BogoSort {
         }
     }
     
-    public static int[] solve(int n, int[] arr){
+    private static int[] solve(int n, int[] arr){
         Arrays.sort(arr);
         int[] ans = new int[n];
         for (int i = n-1; i >= 0; i--) {
